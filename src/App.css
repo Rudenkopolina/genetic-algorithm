@@ -1,32 +1,144 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family:"Name-Of-Font";
+  src: url("Matthew.ttf");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.title {
+  font-family: "Name-Of-Font";
+  font-size: 75px;
+  margin: 15px 0 5px 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 720px;
+  flex-wrap: wrap;
+  border: 1px dashed #a6a6a6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.kletka {
+  display: flex;
+  padding: 25px;
+  width: 0px;
+  margin: 10px;
+  border: 1px solid #c3c3c3;
+  border-radius: 3px;
+}
+
+.subtitle {
+  font-family: "Name-Of-Font";
+  font-size: 35px;
+  margin: 5px 0 15px 0;
+}
+
+.c00000 {
+  background-color: rgb(255, 218, 60);
+}
+.c00001 {
+  background-color: rgb(250, 232, 55);
+}
+.c00010 {
+  background-color: rgb(238, 221, 55);
+}
+.c00011 {
+  background-color: rgb(227, 210, 50);
+}
+.c00100 {
+  background-color: rgb(213, 197, 49);
+}
+.c00101 {
+  background-color: rgb(189, 175, 45);
+}
+.c00110 {
+  background-color: rgb(177, 164, 44);
+}
+.c00111 {
+  background-color: rgb(137, 153, 35);
+}
+.c01000 {
+  background-color: rgb(115, 153, 35);
+}
+.c01001 {
+  background-color: rgb(85, 153, 35);
+}
+.c01010 {
+  background-color: rgb(55, 153, 35);
+}
+.c01011 {
+  background-color: rgb(35, 153, 82);
+}
+.c01100 {
+  background-color: rgb(35, 153, 107);
+}
+.c01101 {
+  background-color: rgb(35, 153, 111);
+}
+.c01110 {
+  background-color: rgb(35, 153, 146);
+}
+.c01111 {
+  background-color: rgb(35, 111, 153);
+}
+.c10000 {
+  background-color: rgb(35, 86, 153);
+}
+.c10001 {
+  background-color: rgb(35, 72, 153);
+}
+.c10010 {
+  background-color: rgb(35, 65, 153);
+}
+.c10011 {
+  background-color: rgb(35, 51, 153);
+}
+.c10100 {
+  background-color: rgb(41, 35, 153);
+}
+.c10101 {
+  background-color: rgb(62, 35, 153);
+}
+.c10110 {
+  background-color: rgb(69, 35, 153);
+}
+.c10111 {
+  background-color: rgb(94, 35, 153);
+}
+.c11000 {
+  background-color: rgb(115, 35, 153);
+}
+.c11001 {
+  background-color: rgb(140, 35, 153);
+}
+.c11010 {
+  background-color: rgb(153, 35, 141);
+}
+.c11011 {
+  background-color: rgb(153, 35, 116);
+}
+.c11100 {
+  background-color: rgb(153, 35, 116);
+}
+.c11101 {
+  background-color: rgb(153, 35, 85);
+}
+.c11110 {
+  background-color: rgb(153, 35, 63);
+}
+.c11111 {
+  background-color: rgb(153, 35, 35);
 }
